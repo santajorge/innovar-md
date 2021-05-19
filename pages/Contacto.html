@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----Bootstrap CSS---->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!----Custom CSS------->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto - Innovar Marketing Digital</title>
+</head>
+<body>
+
+  <!----Header----------->
+
+  <header class="header">
+    <!----Navigation--------->
+    <nav class="navbar navbar-expand-lg navbar-light header__navbar">
+      <div class="container">
+        <a class="navbar-brand d-flex justify-content-start" href="../index.html">
+          <img class="header__logo" src="../img/logos/Logo Innovar.jpeg" alt="Logo Innovar">
+        </a>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">         
+            <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
+            <li><a class="dropdown-item" href="Innovar.html">Sobre Innovar</a></li>
+            <li><a class="dropdown-item" href="Servicios.html">Servicios</a></li>
+            <li><a class="dropdown-item" href="Portfolio.html">Portfolio</a></li>
+            <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+            <li><a class="dropdown-item" href="Contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!----Main-Header--------->   
+    <div class="container-fluid header__background-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 text-center justify-content-center align-self-center">
+            <h2 class="header__main-title">¡Crea tu comunidad!</h2>  
+            <h3 class="header__title">Contactate con nosotros</h3>
+          </div>
+          <div class="col-md-5">
+            <img class="img-fluid" src="../img/World wide web_Flatline.png" alt="Instagram Post">
+          </div>
+        </div>
+      </div>  
+    </div>
+      
+  </header>
+    
+  <!----Main------------->
+
+  <section class="section">
+
+    <div class="container section__box">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-white">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input class="form-control" type="text" placeholder="" aria-label="default input example">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Edad</label>
+            <input class="form-control" type="number" placeholder="" aria-label="default input example">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <select class="form-select mt-2" aria-label="Default select example">
+            <option selected>¿Cómo nos conociste?</option>
+            <option value="1">Instagram</option>
+            <option value="2">Facebook</option>
+            <option value="3">Referencias</option>
+            <option value="3">Web</option>
+            <option value="3">Otro</option>
+          </select>
+          <div class="form-check mt-3 mb-3">      
+            <label class="form-check-label" for="exampleCheck1">¿Quiere suscribirse al Newsletter?</label>
+            <div class= "mt-2 pb-3">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            </div>  
+          </div>           
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Agrega un comentario</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div>
+            <button type="button" class="btn btn-primary btn-sm">Enviar</button>
+            <button type="button" class="btn btn-secondary btn-sm">Limpiar formulario</button>
+          </div>
+        </div>
+      </div> 
+    </div>
+
+  </section>
+
+  <!----Footer------------->
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="row justify-content-between">
+        <div class="col-md-6 footer__container">
+          <a href="https://www.facebook.com/Innovar-Marketing-Digital-106621681602522">
+            <img class="img-fluid footer__container__icon" src="../img/icons/facebook.svg" alt="facebook">
+          </a>
+          <a href="https://www.linkedin.com/in/natalia-ver%C3%B3nica/">
+            <img class="img-fluid footer__container__icon" src="../img/icons/linkedin.svg" alt="linkedin">
+          </a>
+          <a href="#">
+            <img class="img-fluid footer__container__icon" src="../img/icons/instagram.svg" alt="instagram">
+          </a>
+        </div>
+        
+        <div class="col-md-4 footer__container">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link footer__container__enlace" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer__container__enlace" href="../pages/Innovar.html">Sobre Innovar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer__container__enlace" href="../pages/Servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer__container__enlace" href="../pages/Portfolio.html">Portfolio</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link active footer__container__enlace" aria-current="page" href="../pages/Blog.html">Blog</a>
+            </li>                                         
+            <li class="nav-item">
+              <a class="nav-link footer__container__enlace" href="../pages/Contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>       
+      <div class="row justify-content-center mt-4">
+        <p>Copyright © Innovar - Marketing Digital - 2021</p>
+      </div>
+    </div>
+        
+  </footer>
+
+  <!----Bootstrap JAVASCRIPT----->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+</body>
+</html>

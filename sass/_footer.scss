@@ -1,0 +1,29 @@
+.footer{
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: $background1;
+
+    .footer__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        .footer__container__icon{
+            width: 2em;
+        }
+
+        .footer__container__enlace{
+            color: $black;
+            font-size: 0.8rem;
+            letter-spacing: 1px;   
+
+            .footer__container__enlace:hover{
+                transform: skewY(5deg);   
+            }
+              
+        }
+
+    }
+     
+}
+

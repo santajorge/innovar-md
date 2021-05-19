@@ -1,0 +1,41 @@
+.header{
+    background: url(../img/background/pexels-pixabay-147413.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: $shadow; 
+    height: auto;
+    color: $white;
+    text-align: center;
+
+    .header__navbar{
+        background-color: $background1;
+        box-shadow: $shadow;    
+        opacity: .9;
+    }
+
+    .header__logo{
+        width: 20%;
+        opacity: .8;
+    }
+
+    .header__background-overlay{
+        background: $overlay-color;
+        height: 100%;
+ 
+    }
+
+    .header__main-title{
+        font-size: 4em;
+        font-weight: bold;
+    }
+
+    .header__title{
+        font-size: 2em;
+    }
+
+    .header__text{
+        font-size: 1em;
+    }
+
+}
+
