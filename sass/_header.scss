@@ -1,3 +1,23 @@
+.head{ 
+    background-color: $background1;
+    box-shadow: $shadow;    
+    opacity: .9;
+
+    .head__logo{
+        width: 20%;
+        opacity: .8;
+
+    }
+
+    .head__item{
+        margin: 0.5rem;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+
+}
+
 .header{
     background: url(../img/background/pexels-pixabay-147413.jpg);
     background-size: cover;
@@ -7,17 +27,7 @@
     color: $white;
     text-align: center;
 
-    .header__navbar{
-        background-color: $background1;
-        box-shadow: $shadow;    
-        opacity: .9;
-    }
-
-    .header__logo{
-        width: 20%;
-        opacity: .8;
-    }
-
+ 
     .header__background-overlay{
         background: $overlay-color;
         height: 100%;

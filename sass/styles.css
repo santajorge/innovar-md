@@ -1,0 +1,197 @@
+/*-----CSS General------- */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/background/footer_lodyas.png);
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: #2a3232;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+/*-----CSS Header-------- */
+.head {
+  background-color: #dcdde1;
+  -webkit-box-shadow: 2px 2px 10px #000;
+          box-shadow: 2px 2px 10px #000;
+  opacity: .9;
+}
+
+.head .head__logo {
+  width: 20%;
+  opacity: .8;
+}
+
+.head .head__item {
+  margin: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header {
+  background: url(../img/background/pexels-pixabay-147413.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 2px 2px 10px #000;
+          box-shadow: 2px 2px 10px #000;
+  height: auto;
+  color: #ffffff;
+  text-align: center;
+}
+
+.header .header__background-overlay {
+  background: #273c7599;
+  height: 100%;
+}
+
+.header .header__main-title {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.header .header__title {
+  font-size: 2em;
+}
+
+.header .header__text {
+  font-size: 1em;
+}
+
+/*-----CSS Main---------- */
+.section {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section .section__box1 {
+  margin-bottom: 1.5rem;
+}
+
+.section .section__card {
+  background-color: #40739e;
+  text-align: center;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 2px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  height: 100%;
+}
+
+.section .section__card:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.section .section__card--modifier {
+  background-color: #7f8fa6;
+  text-align: center;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 2px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  height: 100%;
+}
+
+.section .section__card--modifier:hover {
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.section .section__enlace {
+  letter-spacing: 3px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.section .section__enlace:hover {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.section .section__box2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section .section__box {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.section .section__text {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.section .section__subtitle {
+  font-size: 2em;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.section .carousel-control-prev {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.section .carousel-control-next {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+/*-----CSS Footer---------- */
+.footer {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #dcdde1;
+}
+
+.footer .footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer .footer__container .footer__container__icon {
+  width: 2em;
+}
+
+.footer .footer__container .footer__container__enlace {
+  color: #000000;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.footer .footer__container .footer__container__enlace .footer__container__enlace:hover {
+  -webkit-transform: skewY(5deg);
+          transform: skewY(5deg);
+}
+/*# sourceMappingURL=styles.css.map */
