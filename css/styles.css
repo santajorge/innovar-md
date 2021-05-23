@@ -76,18 +76,18 @@ a {
   margin-bottom: 1.5rem;
 }
 
-.section .section__card {
+.section .section__box1 .section__card {
   background-color: #40739e;
   text-align: center;
   border-style: solid;
   border-color: #000000;
-  border-radius: 2px;
+  border-radius: 10px;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   height: 100%;
 }
 
-.section .section__card:hover {
+.section .section__box1 .section__card .section__card:hover {
   -webkit-transform: scale(1.05, 1.05);
           transform: scale(1.05, 1.05);
   -webkit-transform-origin: center center;
@@ -114,8 +114,9 @@ a {
 
 .section .section__enlace {
   letter-spacing: 3px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .section .section__enlace:hover {
