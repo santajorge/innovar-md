@@ -72,57 +72,44 @@ a {
   margin-bottom: 1rem;
 }
 
-.section .section__box1 {
-  margin-bottom: 1.5rem;
-}
-
-.section .section__card {
-  background-color: #40739e;
-  text-align: center;
-  border-style: solid;
+.section .section__card, .section .section__card2, .section .section__card3, .section .section__card4, .section .section__card5 {
+  background-color: #509edd;
   border-color: #000000;
-  border-radius: 2px;
+  border-radius: 10px;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   height: 100%;
+  text-align: center;
 }
 
-.section .section__card:hover {
+.section .section__card .section__card-title, .section .section__card2 .section__card-title, .section .section__card3 .section__card-title, .section .section__card4 .section__card-title, .section .section__card5 .section__card-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section .section__card .section__card-link:hover, .section .section__card2 .section__card-link:hover, .section .section__card3 .section__card-link:hover, .section .section__card4 .section__card-link:hover, .section .section__card5 .section__card-link:hover {
   -webkit-transform: scale(1.05, 1.05);
           transform: scale(1.05, 1.05);
   -webkit-transform-origin: center center;
           transform-origin: center center;
-}
-
-.section .section__card--modifier {
-  background-color: #7f8fa6;
-  text-align: center;
-  border-style: solid;
-  border-color: #000000;
-  border-radius: 2px;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  height: 100%;
-}
-
-.section .section__card--modifier:hover {
-  -webkit-transform: scale(1.05, 1.05);
-          transform: scale(1.05, 1.05);
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-}
-
-.section .section__enlace {
-  letter-spacing: 3px;
-  font-size: 1rem;
+  color: #ffffff;
   text-decoration: none;
 }
 
-.section .section__enlace:hover {
-  color: white;
-  letter-spacing: 3px;
-  font-size: 1rem;
-  text-decoration: none;
+.section .section__card2 {
+  background-color: #c892e7;
+}
+
+.section .section__card3 {
+  background-color: #ff9999;
+}
+
+.section .section__card4 {
+  background-color: #8e9fb3;
+}
+
+.section .section__card5 {
+  background-color: #8c8cd9;
 }
 
 .section .section__box2 {
