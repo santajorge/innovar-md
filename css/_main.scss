@@ -2,58 +2,53 @@
     margin-top: 2rem;
     margin-bottom: 1rem;
 
-    .section__box1{
-        margin-bottom: 1.5rem;
-
-        .section__card{
-            background-color: $card1;
-            text-align: center;
-            border-style: solid;
-            border-color: $black;
-            border-radius: 10px;
-            transition: all .3s ease-in-out;
-            height: 100%;
-
-            .section__card:hover{
-                transform: scale(1.05, 1.05);
-                transform-origin: center center;
-        
-            }
-
-        }
-   
-    }
-
-    .section__card--modifier{
-        background-color: $card2;
-        text-align: center;
-        border-style: solid;
+    .section__card{
+        background-color: $card1;
         border-color: $black;
-        border-radius: 2px;
+        border-radius: 10px;
         transition: all .3s ease-in-out;
         height: 100%;
+        text-align: center;
+
+        .section__card-title{
+            text-transform: uppercase;
+            font-weight: bold;
+            
+        }
+
+        .section__card-link:hover{
+            transform: scale(1.05, 1.05);
+            transform-origin: center center;
+            color: $white;
+            text-decoration: none;
+        }
+
+    }
+          
+    .section__card2{
+        @extend .section__card;
+        background-color: $card2;
+       
     }
 
-    .section__card--modifier:hover{
-        transform: scale(1.05, 1.05);
-        transform-origin: center center;
+    .section__card3{
+        @extend .section__card;
+        background-color: $card3;
+       
+    }
+
+    .section__card4{
+        @extend .section__card;
+        background-color: $card4;
+       
+    }
+
+    .section__card5{
+        @extend .section__card;
+        background-color: $card5;
 
     }
 
-    .section__enlace{
-        letter-spacing: 3px;
-        font-size: 1.5rem;
-        text-decoration: none;
-        font-weight: bold;
-        
-    }
-
-    .section__enlace:hover{
-        color: white;
-        letter-spacing: 3px;
-        font-size: 1rem;
-        text-decoration: none;
-    }
 
     .section__box2{
         justify-content: center;
