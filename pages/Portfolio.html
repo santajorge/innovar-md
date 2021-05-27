@@ -6,51 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!----Bootstrap CSS---->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!----Custom CSS------->
     <link rel="stylesheet" href="../css/styles.css">
     <title>Portfolio - Innovar Marketing Digital</title>
 </head>
 <body>
 
-  <!----Header----------->
-
-  <header class="header">
-    <!----Navigation--------->
-    <nav class="navbar navbar-expand-lg navbar-light header__navbar">
-      <div class="container">
-        <a class="navbar-brand d-flex justify-content-start" href="../index.html">
-          <img class="header__logo" src="../img/logos/Logo Innovar.jpeg" alt="Logo Innovar">
-        </a>
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-            Menu
-          </button>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">         
-            <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
-            <li><a class="dropdown-item" href="Innovar.html">Sobre Innovar</a></li>
-            <li><a class="dropdown-item" href="Servicios.html">Servicios</a></li>
-            <li><a class="dropdown-item" href="Portfolio.html">Portfolio</a></li>
-            <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
-            <li><a class="dropdown-item" href="Contacto.html">Contacto</a></li>
-          </ul>
-        </div>
+  <!----Navigation--------->
+  <nav class="navbar navbar-expand-lg navbar-light head">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img class="head__logo" src="../img/logos/Logo Innovar.jpeg" alt="Logo Innovar">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end head__menu" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item head__item">
+            <a class="navlink head__link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item head__item">
+            <a class="navlink head__link" href="Innovar.html">Sobre Innovar</a>
+          </li>
+          <li class="nav-item head__item">
+            <a class="navlink head__link" href="Servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item head__item">
+            <a class="navlink head__link" href="Portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item head__item">
+            <a class="navlink head__link" href="Blog.html">Blog</a>
+          </li>
+          <li class="nav-item head__item">
+            <a class="navlink head__link" href="Contacto.html">Contacto</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!----Main-Header--------->   
+    </div>
+  </nav>
+
+  <!----Header----------->
+  <header class="header">   
     <div class="container-fluid header__background-overlay">
       <div class="container">
         <div class="row">
-          <div class="col-md-7 text-center justify-content-center align-self-center">
-              <h2 class="header__main-title">Nuestro Trabajo</h2>  
-              <h3 class="header__title">Creando verdaderas comunidades</h3>
+          <div class="col-md-7 justify-content-center align-self-center">
+            <h1 class="header__page-title animate__animated animate__fadeInDown">Nuestro trabajo</h1>
+            <h2 class="header__page-subtitle animate__animated animate__fadeIn">Creando verdaderas Comunidades</h2>
+            <p class="header__text animate__animated animate__fadeIn"></p>
           </div>
           <div class="col-md-5">
-              <img class="img-fluid" src="../img/Content creation_Outline.png" alt="Creacion Contenido">
+            <img src="../img/Product Manager_Monochromatic.png" alt="Creación contenido" class="img-fluid">
           </div>
         </div>
       </div>
     </div>
-      
+
   </header>
     
   <!----Main------------->
@@ -130,51 +143,57 @@
 
   </section>
 
-  <!----Footer------------->
+  <!----Footer----------->
 
   <footer class="footer">
     <div class="container-fluid">
       <div class="row justify-content-between">
-        <div class="col-md-6 footer__container">
+        <div class="col-md-7 col-6 flex-xs-column footer__container">
           <a href="https://www.facebook.com/Innovar-Marketing-Digital-106621681602522">
-            <img class="img-fluid footer__container__icon" src="../img/icons/facebook.svg" alt="facebook">
+          <img class="img-fluid footer__container__icon" src="../img/icons/facebook.svg" alt="facebook">
           </a>
           <a href="https://www.linkedin.com/in/natalia-ver%C3%B3nica/">
-            <img class="img-fluid footer__container__icon" src="../img/icons/linkedin.svg" alt="linkedin">
+          <img class="img-fluid footer__container__icon" src="../img/icons/linkedin.svg" alt="linkedin">
           </a>
           <a href="#">
-            <img class="img-fluid footer__container__icon" src="../img/icons/instagram.svg" alt="instagram">
+          <img class="img-fluid footer__container__icon" src="../img/icons/instagram.svg" alt="instagram">
           </a>
         </div>
-        <div class="col-md-4 footer__container">
+      
+        <div class="col-md-5 col-6 footer__container">
           <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link footer__container__enlace" href="../index.html">Inicio</a>
+              <a class="nav-link footer__container__enlace" aria-current="page" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link footer__container__enlace" href="../pages/Innovar.html">Sobre Innovar</a>
+              <a class="nav-link footer__container__enlace" href="Innovar.html">Sobre Innovar</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link footer__container__enlace" href="../pages/Servicios.html">Servicios</a>
-            </li>  
-            <li class="nav-item">
-              <a class="nav-link active footer__container__enlace" aria-current="page" href="../pages/Portfolio.html">Portfolio</a>
-            </li>                                 
-            <li class="nav-item">
-              <a class="nav-link footer__container__enlace" href="../pages/Blog.html">Blog</a>
+              <a class="nav-link footer__container__enlace" href="Servicios.html">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link footer__container__enlace" href="../pages/Contacto.html">Contacto</a>
+              <a class="nav-link footer__container__enlace" href="Portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer__container__enlace" href="Blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link footer__container__enlace" href="Contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
-      </div>     
-      <div class="row justify-content-center mt-4">
-        <p>Copyright © Innovar - Marketing Digital - 2021</p>
       </div> 
+      
+      <div class="row mt-4 justify-content-center">
+        <div class="col-md-6 col-12 mt-1">
+          <p class="footer__texto">Copyright © Innovar Marketing Digital 2021</p>
+        <div>
+      </div>
+
     </div>
-        
+      
   </footer>
+
 
   <!----Bootstrap JAVASCRIPT----->
 
