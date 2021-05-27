@@ -6,24 +6,35 @@
     .footer__container{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content:space-evenly;
+
+        @media (max-width: 500px){
+            display: flex;
+            flex-direction: column;
+        }
 
         .footer__container__icon{
             width: 2em;
+
         }
 
         .footer__container__enlace{
             color: $black;
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             letter-spacing: 1px;   
 
             .footer__container__enlace:hover{
-                transform: skewY(5deg);   
+                color: $overlay-color;
             }
-              
+
         }
 
     }
-     
+   
+    .footer__texto{
+        text-align: center;
+        padding-top: 1rem;
+    }
+
 }
 
