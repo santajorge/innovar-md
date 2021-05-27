@@ -160,8 +160,15 @@ a {
 }
 
 .section .section__card .section__card-title, .section .section__card2 .section__card-title, .section .section__card3 .section__card-title, .section .section__card4 .section__card-title, .section .section__card5 .section__card-title {
+  font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .section .section__card .section__card-title, .section .section__card2 .section__card-title, .section .section__card3 .section__card-title, .section .section__card4 .section__card-title, .section .section__card5 .section__card-title {
+    font-size: 1em;
+  }
 }
 
 .section .section__card .section__card-link:hover, .section .section__card2 .section__card-link:hover, .section .section__card3 .section__card-link:hover, .section .section__card4 .section__card-link:hover, .section .section__card5 .section__card-link:hover {
@@ -171,6 +178,10 @@ a {
           transform-origin: center center;
   color: #ffffff;
   text-decoration: none;
+}
+
+.section .section__card .section__card-text, .section .section__card2 .section__card-text, .section .section__card3 .section__card-text, .section .section__card4 .section__card-text, .section .section__card5 .section__card-text {
+  font-size: 16px;
 }
 
 .section .section__card2 {

@@ -11,8 +11,13 @@
         text-align: center;
 
         .section__card-title{
+            font-size: 1.5em;
             text-transform: uppercase;
             font-weight: bold;
+
+            @media (max-width: 500px) {
+                font-size: 1em;
+            }
             
         }
 
@@ -22,6 +27,11 @@
             color: $white;
             text-decoration: none;
         }
+
+        .section__card-text{
+            font-size: 16px;
+        }
+
 
     }
           
