@@ -200,6 +200,11 @@ a {
   background-color: #8c8cd9;
 }
 
+.section .section__card6 {
+  background-color: #c892e7;
+  height: 100%;
+}
+
 .section .section__box {
   padding-top: 1rem;
   padding-bottom: 1rem;
