@@ -206,6 +206,7 @@ a {
 }
 
 .section .section__box .section__subtitle {
+  text-align: center;
   font-size: 2em;
   color: #ffffff;
   letter-spacing: 2px;
