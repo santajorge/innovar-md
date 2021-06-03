@@ -6,7 +6,7 @@
         background-color: $card1;
         border-color: $black;
         border-radius: 10px;
-        transition: all .3s ease-in-out;
+        transition: all .4s ease-in-out;
         height: 100%;
         text-align: center;
 
@@ -21,8 +21,12 @@
             
         }
 
+        .section__card-link{
+            color: white;
+        }
+
         .section__card-link:hover{
-            transform: scale(1.05, 1.05);
+            transform: scale(1.08, 1.08);
             transform-origin: center center;
             color: $white;
             text-decoration: none;

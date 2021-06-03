@@ -67,7 +67,7 @@ a {
 }
 
 .header {
-  background: url(../img/background/pexels-pixabay-147413.jpg);
+  background: url(../img/background/backgroundcanva2.png);
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-box-shadow: 2px 2px 10px #000;
@@ -78,7 +78,7 @@ a {
 }
 
 .header .header__background-overlay {
-  background: #273c7599;
+  background: #4c619c99;
   height: 100%;
 }
 
@@ -174,8 +174,8 @@ a {
   background-color: #509edd;
   border-color: #000000;
   border-radius: 10px;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
   height: 100%;
   text-align: center;
 }
@@ -192,9 +192,13 @@ a {
   }
 }
 
+.section .section__card .section__card-link, .section .section__card2 .section__card-link, .section .section__card3 .section__card-link, .section .section__card4 .section__card-link, .section .section__card5 .section__card-link {
+  color: white;
+}
+
 .section .section__card .section__card-link:hover, .section .section__card2 .section__card-link:hover, .section .section__card3 .section__card-link:hover, .section .section__card4 .section__card-link:hover, .section .section__card5 .section__card-link:hover {
-  -webkit-transform: scale(1.05, 1.05);
-          transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.08, 1.08);
+          transform: scale(1.08, 1.08);
   -webkit-transform-origin: center center;
           transform-origin: center center;
   color: #ffffff;
@@ -318,7 +322,7 @@ a {
 }
 
 .footer .footer__container .footer__container__enlace .footer__container__enlace:hover {
-  color: #273c7599;
+  color: #4c619c99;
 }
 
 .footer .footer__texto {
