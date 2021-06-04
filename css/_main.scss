@@ -1,6 +1,6 @@
 .section{
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
 
     .section__card{
         background-color: $card1;
@@ -9,13 +9,14 @@
         transition: all .4s ease-in-out;
         height: 100%;
         text-align: center;
+        box-shadow: $shadow;
 
         .section__card-title{
             font-size: 1.5em;
             text-transform: uppercase;
             font-weight: bold;
 
-            @media (max-width: 500px) {
+            @media (max-width: 1200px) {
                 font-size: 1em;
             }
             
@@ -34,8 +35,12 @@
 
         .section__card-text{
             font-size: 16px;
-        }
 
+            @media (max-width: 500px){
+                font-size: 12px;
+            }
+
+        }
 
     }
           
