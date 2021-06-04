@@ -33,6 +33,7 @@
 }
 
 .header{
+    margin-top: 8rem;
     background: url(../img/background/backgroundcanva2.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,7 +42,10 @@
     color: $white;
     text-align: center;
 
- 
+    @media (max-width: 604px){
+        margin-top: 4.5rem;
+    }
+    
     .header__background-overlay{
         background: $overlay-color;
         height: 100%;
