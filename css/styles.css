@@ -40,6 +40,77 @@ a {
   letter-spacing: 1px;
 }
 
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5%;
+  margin: 2%;
+}
+
+form form input, form #comentarios {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-bottom: 2px solid black;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+form input::-webkit-input-placeholder, form #comentarios::-webkit-input-placeholder {
+  color: #b8b3b3;
+  font-weight: bold;
+}
+
+form input:-ms-input-placeholder, form #comentarios:-ms-input-placeholder {
+  color: #b8b3b3;
+  font-weight: bold;
+}
+
+form input::-ms-input-placeholder, form #comentarios::-ms-input-placeholder {
+  color: #b8b3b3;
+  font-weight: bold;
+}
+
+form input::placeholder, form #comentarios::placeholder {
+  color: #b8b3b3;
+  font-weight: bold;
+}
+
+form #boton1 {
+  background-color: rgba(86, 20, 161, 0.932);
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 1%;
+  width: 50%;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+form #boton1:hover {
+  background-color: #333;
+  color: #ffffff;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+form input:focus, form #comentarios:focus {
+  border-color: #000000;
+  color: #000000;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
 /*-----CSS Header-------- */
 .head {
   background-color: #dcdde1;
@@ -284,6 +355,19 @@ a {
   .section .section__box .section__text {
     font-size: 16px;
   }
+}
+
+.section .section__box-card {
+  height: 100%;
+  background-color: #737373;
+  -webkit-transition: all .4s ease-out;
+  transition: all .4s ease-out;
+  border-radius: 0%;
+}
+
+.section .section__box-card:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 .section .section__box2 {

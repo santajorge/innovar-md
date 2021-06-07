@@ -16,7 +16,7 @@
             text-transform: uppercase;
             font-weight: bold;
 
-            @media (max-width: 1200px) {
+            @media (max-width: 1200px){
                 font-size: 1em;
             }
             
@@ -103,6 +103,18 @@
        
     }
 
+    .section__box-card{
+        height: 100%;
+        background-color: $grey;
+        transition: all .4s ease-out;
+        border-radius: 0%;
+
+    }
+
+    .section__box-card:hover{
+        transform: scale(0.9);
+    }
+
     .section__box2{
         justify-content: center;
     }
@@ -117,6 +129,7 @@
         background-color: $carousel-control-color;
     } 
   
+
 }
 
    
