@@ -74,11 +74,11 @@
       <div class="row justify-content-center">
         <div class="col-md-8">
           <h3 class="text-white text-center">Formulario de contacto</h3>
-          <form action="enviar.php" method="POST">
+          <form action="formulario.php" method="POST">
             <input class="mb-3" type="text" name="nombre" class="imput1" id="nombre" placeholder="Nombre" required>
             <input class="mb-3" type="text" name="apellido" class="imput1" id="apellido" placeholder="Apellido" required>
             <input class="mb-3" type="email" name="correo" class="imput1" id="correo" placeholder="Correo" required>
-            <select class="mb-3" name="medio" id="medio" required>
+            <select multiple name="medio" class="mb-3" name="medio" id="medio" required>
               <option selected>¿Cómo nos conociste?</option>
               <option value="1">Instagram</option>
               <option value="2">Facebook</option>
