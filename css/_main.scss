@@ -130,6 +130,16 @@
     } 
   
 
+    .imgPortfolio{
+        filter: grayscale(100%);
+        opacity: (100%);
+        transition: 2s;
+    }
+
+    .imgPortfolio:hover{
+        filter: brightness(1.2);
+    }
+
 }
 
    
