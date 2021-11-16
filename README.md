@@ -8,5 +8,5 @@ The web framework used Bootstrap
 
 Author ✒️ Jorge Santarelli - https://github.com/santajorge
 
-Licencia 📄
+License 📄
 
