@@ -2,11 +2,9 @@
 
 Innovar Marketing Digital website. Project carried out as final work for the Coderhouse web development course.
 
-Built with 🛠️ HTML CSS JS
-
-The web framework used Bootstrap
+Built with 🛠️ HTML CSS Bootstrap
 
 Author ✒️ Jorge Santarelli - https://github.com/santajorge
 
-License 📄
+
 
